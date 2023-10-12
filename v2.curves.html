@@ -2,7 +2,7 @@
 
 <html>
 <head>
-  <title>Javascript Racer - v2 (curves)</title>
+  <title>V2 - Mode Belokan</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <link href="common.css" rel="stylesheet" type="text/css" />
 </head> 
@@ -12,15 +12,15 @@
   <table id="controls">
     <tr>
       <td colspan="2">
-        <a href='v1.straight.html'>straight</a> |
-        <a href='v2.curves.html'>curves</a>     |
-        <a href='v3.hills.html'>hills</a>       |
+        <a href='v1.straight.html'>lurus</a>    |
+        <a href='v2.curves.html'>belokan</a>    |
+        <a href='v3.hills.html'>bukit</a>       |
         <a href='v4.final.html'>final</a>
       </td>
     </tr>
     <tr><td id="fps" colspan="2" align="right"></td></tr>
     <tr>
-      <th><label for="resolution">Resolution :</label></th>
+      <th><label for="resolution">Resolusi :</label></th>
       <td>
         <select id="resolution" style="width:100%">
           <option value='fine'>Fine (1280x960)</option>
@@ -31,7 +31,7 @@
       </td>
     </tr>
     <tr>
-      <th><label for="lanes">Lanes :</label></th>
+      <th><label for="lanes">Jalur :</label></th>
       <td>
         <select id="lanes">
           <option>1</option>
@@ -42,34 +42,34 @@
       </td>
     </tr>
     <tr>
-      <th><label for="roadWidth">Road Width (<span id="currentRoadWidth"></span>) :</label></th>
+      <th><label for="roadWidth">Lebar Jalan (<span id="currentRoadWidth"></span>) :</label></th>
       <td><input id="roadWidth" type='range' min='500' max='3000' title="integer (500-3000)"></td>
     </tr>
     <tr>
-      <th><label for="cameraHeight">CameraHeight (<span id="currentCameraHeight"></span>) :</label></th>
+      <th><label for="cameraHeight">Tinggi Kamera (<span id="currentCameraHeight"></span>) :</label></th>
       <td><input id="cameraHeight" type='range' min='500' max='5000' title="integer (500-5000)"></td>
     </tr>
     <tr>
-      <th><label for="drawDistance">Draw Distance (<span id="currentDrawDistance"></span>) :</label></th>
+      <th><label for="drawDistance">Jarak Gambar (<span id="currentDrawDistance"></span>) :</label></th>
       <td><input id="drawDistance" type='range' min='100' max='500' title="integer (100-500)"></td>
     </tr>
     <tr>
-      <th><label for="fieldOfView">Field of View (<span id="currentFieldOfView"></span>) :</label></th>
+      <th><label for="fieldOfView">Bidang Pandangan (<span id="currentFieldOfView"></span>) :</label></th>
       <td><input id="fieldOfView" type='range' min='80' max='140' title="integer (80-140)"></td>
     </tr>
     <tr>
-      <th><label for="fogDensity">Fog Density (<span id="currentFogDensity"></span>) :</label></th>
+      <th><label for="fogDensity">Kepadatan Kabut (<span id="currentFogDensity"></span>) :</label></th>
       <td><input id="fogDensity" type='range' min='0' max='50' title="integer (0-50)"></td>
     </tr>
   </table>
 
   <div id='instructions'>
-    <p>Use the <b>arrow keys</b> to drive the car.</p>
+    <p>Gunakan <b>tombol panah</b> untuk mengemudikan mobil.</p>
   </div>
 
   <div id="racer">
     <canvas id="canvas">
-      Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element
+      Maaf, contoh ini tidak dapat dijalankan karena browser Anda tidak mendukung elemen &lt;canvas&gt;
     </canvas>
     Loading...
   </div>
